@@ -1,0 +1,5 @@
+1. Rebase
+
+With rebase someone can change commit message with 'reword' (example: I edited update 3 in feat/payment branch commit message), 
+change which commit point a branch start branching from other branch (example: my feat/payment branch changed it's base from 1st commit of master to 11th commit of master), 
+squashing many commit into one (example: I squashed commit in feat/payment branch)
