@@ -2,3 +2,6 @@ this code is commited
 
 stash 2
 this code is stashed
+this code is staged and will be stashed
+
+this code is not staged and will be stashed
