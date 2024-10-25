@@ -12,3 +12,7 @@ With cherry pick someone can pull a specific commit on other branch by specifyin
 3. Git Stash
 
 Stage all changes (staged and unstaged) and save it on local storage. Then saved stash can be applied later and become unstaged code. If any conflict happen when stash apply, user need to resolve conflict
+
+4. Pulling remote branch that not in local branch
+
+Git fetch to get information from remote. Then create a new branch on local with remote branch as upstream (branch name can be same or different).
