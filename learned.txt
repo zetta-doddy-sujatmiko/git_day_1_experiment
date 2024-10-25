@@ -8,3 +8,7 @@ squashing many commit into one (example: I squashed commit in feat/payment branc
 
 With cherry pick someone can pull a specific commit on other branch by specifying that commit id, later, when the brach that one of its commit cherry picked merged, git notice it and brach merged normally
 (example: I cherry picked a helper from branch bugfix/payment because main need that helper without entire bugfix/payment brach merged, then I merge bugfix/payment into main and it did merged normally)
+
+3. Git Stash
+
+Stage all changes (staged and unstaged) and save it on local storage. Then saved stash can be applied later and become unstaged code. If any conflict happen when stash apply, user need to resolve conflict
